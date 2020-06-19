@@ -1,0 +1,1426 @@
+@charset "utf-8";
+/*Havoc Normal*/
+body {
+  overflow-x: hidden;
+  clear: both;
+  color: #222222;
+  font-family: 'Inter', sans-serif, Helvetica, Arial, serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.42857143;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+*, *:focus {
+  outline: none;
+}
+a {
+  color: #000000;
+  transition: all ease .4s;
+}
+a:focus {
+  outline: none;
+  outline-offset: 0;
+}
+a:hover {
+  color: #f67b08;
+  text-decoration: none;
+}
+a:focus {
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+iframe {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  border: none;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 1.3;
+}
+p {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  color: #7c7c7c;
+  font-size: 15px;
+  line-height: 24px;
+}
+p a {
+  color: inherit;
+}
+p a:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+video {
+  display: block;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: #f8f8f8;
+}
+audio, canvas, progress, video {
+  vertical-align: middle;
+}
+button, button:focus {
+  outline: none;
+  outline-offset: 0;
+}
+figure {
+  margin: 0;
+}
+::selection {
+  background: #222222;
+  color: #ffffff;
+}
+::-webkit-selection {
+  background: #222222;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #222222;
+  color: #ffffff;
+}
+::-o-selection {
+  background: #222222;
+  color: #ffffff;
+}
+::-ms-selection {
+  background: #222222;
+  color: #ffffff;
+}
+::-webkit-input-placeholder {
+  color: #aaaaaa !important;
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: #aaaaaa !important;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #aaaaaa !important;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #aaaaaa !important;
+  opacity: 1;
+}
+
+label {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/*Havoc Headings*/
+h1 {
+  font-size: 104px;
+  line-height: 106px;
+  letter-spacing: -1px;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 43px;
+  line-height: 56px;
+  color: #000000;
+  letter-spacing: -0.8px;
+}
+
+/*Inputs*/
+input[placeholder], [placeholder], *[placeholder] {
+  color: #000000 !important;
+}
+::placeholder {
+  color: #000000 !important; 
+} 
+  
+:-ms-input-placeholder {
+  color: #000000 !important; 
+} 
+  
+::-ms-input-placeholder {
+  color: #000000 !important; 
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1170px;
+}
+header .container {
+  max-width: 100%;
+}
+
+
+/*Havoc Normal*/
+.havoc-section-title  {
+  padding: 0 0 50px;
+}
+.havoc-section-title span {
+  display: block;
+  clear: both;
+  padding-left: 115px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+  text-transform: uppercase;
+  position: relative;
+}
+.havoc-section-title span:after, 
+.havoc-growing-globe .havoc-section-title h3:after, 
+.havoc-upcoming-events .havoc-section-title h3:after {
+  position: absolute;
+  top: 12px;
+  left: -1px;
+  z-index: 1;
+  width: 100px;
+  height: 1px;
+  background: #000000;
+  content: "";
+}
+.havoc-section-title h3 {
+  font-size: 43px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  margin-top: 28px;
+  padding-bottom: 6px;
+}
+
+/*Btns*/
+.btn {
+  padding: 10px 20px;
+  min-width: 245px;
+  font-size: 28px;
+  letter-spacing: -0.4px;
+  line-height: 42px;
+  color: #000000;
+  font-weight: 500;
+  outline: none;
+  box-shadow: none;
+}
+.btn:hover, .btn:focus, .btn:active {
+  outline: none;
+  box-shadow: none;
+  background: inherit;
+  color: inherit;
+}
+.border-btn {
+  border: 2px solid #000000;
+  border-radius: 0.7px;
+}
+.border-btn:hover {
+  background: #f67b08;
+  color: #000000;
+}
+.black-btn {
+  background: #000;
+  border-radius: 0.7px;
+  color: #FFFFFF;
+  border: 2px solid #000000;
+}
+.black-btn:hover {
+  background: #f67b08;
+  color: #000000;
+  border-color: #000000;
+}
+.btn-small {
+  min-width: 76px;
+}
+
+/*Havoc Main*/
+.havoc-main {
+  overflow: hidden;
+}
+.bg-yellow {
+  background: #f67b08;
+}
+
+section {
+  overflow: hidden;
+}
+
+/*Havoc Header*/
+header {
+  padding: 32px 0 32px 40px;
+  position: relative;
+  z-index: 11;
+}
+.logo {
+  display: inline-block;
+}
+nav {
+  float: right;
+}
+.menu-listing {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  z-index: 111;
+  width: 850px;
+  height: 110vh;
+  background: #252525;
+  padding: 100px;
+  transition: all 500ms ease-in-out;
+  transform: translate(100%, -100%);
+}
+.menu-listing.active {
+  transform: translate(0, 0);
+}
+.menu-listing ul.navbar-nav li {
+  display: block;
+  clear: both;
+  padding-left: 120px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.menu-listing ul.navbar-nav li:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  width: 90px;
+  height: 1px;
+  background: #ffffff;
+  content: "";
+  transition: all ease .4s;
+}
+.menu-listing ul.navbar-nav li a {
+  font-size: 65px;
+  line-height: 100px;
+  letter-spacing: -0.7px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.menu-listing ul.navbar-nav li a:hover, .menu-listing ul.navbar-nav li a:focus, .menu-listing ul.navbar-nav li.current-menu-item a {
+  color: #f67b08;
+}
+.menu-listing ul.navbar-nav li:hover:before, .menu-listing ul.navbar-nav li.current-menu-item:before {
+  width: 40px;
+  background: #f67b08;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 0;
+  top: -57px;
+  z-index: 1111;
+  background: #000000;
+  padding: 20px;
+  border-radius: 0;
+  width: 67px;
+  height: 67px;
+  background-image: url("../images/icons/menu.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all ease .4s;
+}
+.navbar-toggler.close-menu {
+  background-image: url("../images/icons/close.svg");
+}
+.menu-listing .socials-link {
+  position: absolute;
+  bottom: 120px;
+  right: 50px;
+  z-index: 1;
+}
+.menu-listing .socials-link ul li {
+  margin: 0 10px;
+}
+.bottom-links {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  z-index: 11;
+}
+.bottom-links a {
+  font-size: 14px;
+  color: #7B7B7B;
+  margin-left: 30px;
+}
+.bottom-links a:hover {
+  color: #f67b08;
+}
+
+/*Havoc Banner*/
+.havoc-banner-wrap {
+  padding: 141px 0 188px;
+}
+.havoc-banner-wrap .row {
+  margin: 0 -1px;
+}
+.havoc-banner-wrap [class*="col-"] {
+  padding: 16px 0px 25px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.havoc-banner-wrap .caption{
+  padding: 8px 0 0 70px;
+}
+
+.havoc-banner-wrap a {
+  font-size: 40px;
+  color: #000000;
+  line-height: 49px;
+  letter-spacing: -0.5px;
+  font-weight: 300;
+}
+.havoc-banner-wrap ul {
+  list-style-type: none;
+  padding: 27px 0 0 69px;
+  margin: 0;
+  width: 500px;
+}
+.havoc-banner-wrap ul li {
+  float: left;
+  width: 177px;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.1px;
+  color: #000000;
+  margin: 0 0 35px;
+}
+.havoc-banner-wrap ul li a {  
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  color: #000000;
+}
+.havoc-banner-wrap .bdr-btm-none {
+  border-bottom: none;
+}
+.havoc-banner-wrap .bdr-left-none {
+  border-left: none;
+}
+.email-us {
+ padding: 24px 0 0;
+}
+.email-us img {
+ margin-right: 6px;
+ position: relative;
+ top: -2px;
+}
+
+/*Havoc Our Work*/
+.havoc-our-work {
+  padding: 133px 0;
+}
+.havoc-our-work [class*="col-"] {
+  padding-bottom: 93px;
+}
+.havoc-our-work .work-info {
+  padding: 24px 0 0;
+}
+.havoc-our-work .work-category {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7B7B7B;
+  letter-spacing: 0.1px;
+}
+.havoc-our-work .work-info .work-category span {
+  position: relative;
+}
+.havoc-our-work .work-info .work-category span:after {
+  content: '.';
+  font-size: 20px;
+}
+.havoc-our-work .work-info .work-category span:last-child:after {
+  display: none;
+}
+.havoc-our-work .work-info .work-category a {
+  position: relative;
+  color: #7B7B7B;
+}
+.havoc-our-work .work-info .work-category a:hover {
+  color: #000000;
+}
+.havoc-our-work .work-info .work-category a:after {
+  content: '.';
+  font-size: 20px;
+}
+.havoc-our-work .work-info .work-category a:last-child:after {
+  display: none;
+}
+.havoc-our-work .slider-caption .work-info h4 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  letter-spacing: -0.45px;
+  margin-top: 8px;
+}
+.havoc-our-work .work-info h4 {
+  font-size: 28px;
+  line-height: 42px;
+  color: #000000;
+  letter-spacing: -0.4px;
+  margin-top: 10px;
+}
+.havoc-our-work .btn-wrap {
+  text-align: center;
+}
+.work-small-thumb {
+  margin: 0 -45px;
+}
+.havoc-our-work .work-small-thumb [class*="col-"] {
+  padding: 0 45px 94px;
+}
+.havoc-our-work .work-small-thumb .work-info {
+  padding: 26px 0 0;
+}
+.havoc-our-work .work-small-thumb .work-info h4 {
+  margin-top: 7px;
+}
+
+/*Growing Globe*/
+.havoc-growing-globe {
+  padding: 175px 0 0;
+  background: url("../images/icons/illustration.svg") no-repeat 50% 165px;
+}
+.havoc-growing-globe .container {
+  max-width: 1060px;
+}
+.havoc-growing-globe .havoc-section-title h3 {
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -1.0px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 85px;
+}
+.havoc-growing-globe .havoc-section-title h3:after {
+  top: 50px;
+  left: -56px;
+}
+.havoc-counter-wrap {
+  padding: 6px 0;
+  text-align: center;
+}
+.havoc-counter-wrap [class*="col-"] {
+  border-right: 1px solid #000;
+}
+.havoc-counter-wrap h5 {
+  font-size: 140px;
+  color: #000000;
+  line-height: 168px;
+  letter-spacing: -1.5px;
+  font-weight: 200;
+  padding-bottom: 0;
+}
+.havoc-counter-wrap span {
+  font-size: 20px;
+  color: #000000;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.havoc-counter-wrap .row [class*="col-"]:last-child {
+  border: none;
+}
+.havoc-latest-news {
+  padding: 89px 0 70px 85px;
+  font-size: 20px;
+  color: #000000;
+  line-height: 26px;
+  letter-spacing: -0.15px;
+}
+.havoc-latest-news span {
+  padding: 4px 15px;
+  background: #f67b08;  
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.havoc-latest-news .btn-wrap {
+  padding: 62px 0 0;
+}
+.link-underline {
+  font-size: 20px;
+  color: #000000;
+  line-height: 28px;
+  position: relative;
+  letter-spacing: -0.2px;
+}
+.link-underline:hover {
+  color: #f67b08;
+}
+.link-underline:after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #000000;
+  transition: all ease .3s;
+}
+.link-underline:hover:after {
+  background: #f67b08;
+}
+
+/*Our Team*/
+.havoc-our-team {
+  padding: 338px 0 200px;
+}
+.havoc-our-team .havoc-section-title {
+  padding-bottom: 76px;
+}
+.havoc-our-team .row {
+  margin: 0 -28px;
+}
+.havoc-our-team [class*="col-"] {
+  padding: 0 28px 60px;
+}
+.havoc-our-team img {
+  width: 100%;
+}
+.havoc-our-team h6 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  font-weight: 500;
+  padding: 16px 0 3px;
+}
+.havoc-our-team .team-mate span {
+  color: #7B7B7B;
+  font-size: 14px;
+}
+.havoc-our-team .btn-wrap {
+  text-align: center;
+  margin: 16px 0 0;
+}
+.havoc-our-team .btn {
+  min-width: 325px;
+}
+
+/*Havoc Upcoming Events*/
+.havoc-upcoming-events {
+  padding: 173px 0 115px;
+  background: #F7F7F7;
+}
+.havoc-upcoming-events .container {
+  max-width: 890px;
+}
+.havoc-upcoming-events .havoc-section-title h3 {
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -1.0px;
+  font-weight: 600;
+  position: relative;
+}
+.havoc-upcoming-events .havoc-section-title h3:after {
+  top: 49px;
+  left: -141px;
+}
+.havoc-event-block {
+  border-bottom: 1px solid #000000;
+  position: relative;
+  padding: 4px 0 43px;
+  color: #000000;
+  margin-bottom: 43px;
+  overflow: hidden;
+}
+.havoc-event-block span {
+  display: inline-block;
+  padding: 2px 16px;
+  background: #f67b08;
+  font-size: 20px;
+  font-weight: 500;
+}
+.havoc-event-block h6 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.4px;
+  padding: 35px 0 0;
+  margin: 0;
+}
+.havoc-event-block p {
+  font-size: 20px;
+  color: inherit;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  padding: 8px 0;
+}
+.havoc-event-block .event-arrow {
+  position: absolute;
+  top: 100px;
+  right: 60px;
+  z-index: 1;
+  transition: all ease .4s;   
+}
+.havoc-event-block:hover .event-arrow {  
+  right: 40px;
+}
+.mate-image {
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  text-align: center;
+}
+.team-mate .mate-image .mate-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  opacity: 0;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.095, 1.08);
+  -ms-transition: all 600ms cubic-bezier(0.645, 0.045, 0.095, 1.08);
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.095, 1.08);
+  z-index: 1;
+}
+.team-mate .mate-image:hover .mate-info {
+  opacity: 1;
+}
+.mate-info a {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.mate-info a:hover {
+  background: #f67b08;
+}
+.mate-info a img {
+  width: 16px;
+  height: 16px;
+}
+.havoc-table-container {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.havoc-align-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+/*Havoc Get Touch*/
+
+.havoc-get-touch {
+  padding: 143px 0;
+  background: #f67b08;
+}
+.havoc-get-touch .havoc-section-title {
+  padding-bottom: 12px;
+}
+.havoc-get-touch .havoc-section-title h3 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 600;
+  color: #000000;
+}
+.havoc-get-touch .havoc-section-title span {
+  padding-left: 122px;
+}
+.havoc-get-touch p {
+  font-size: 20px;
+  color: #000000;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: -0.05px;
+}
+.havoc-get-touch [class*="col-"]:last-child {
+  padding-left: 150px;
+}
+.form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  background: transparent;
+  border-radius: 0;
+  padding-left: 0;
+  outline: none;
+  box-shadow: none;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.form-control:hover, .form-control:focus, .form-control:active {
+  background: transparent;
+  border-radius: 0;
+  padding-left: 0;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #000000;
+}
+textarea.form-control {
+  height: 120px;
+  resize: none;
+}
+.havoc-get-touch .btn {
+  width: 100%;
+  padding: 10px;
+}
+/*Havoc Footer*/
+footer {
+  padding: 120px 0 50px;
+  background: #252525;
+}
+footer .logo {
+  margin-bottom: 23px;
+}
+footer p {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+}
+footer h6 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+footer ul li {
+  padding: 2px 0 10px;
+}
+footer ul li a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7B7B7B;
+}
+footer ul li a:hover, footer ul li.active a {
+  color: #FFFFFF;
+}
+/*Havoc Copyright*/
+.havoc-copyright {
+  padding: 106px 0 0;
+  font-size: 14px;
+  color: #7B7B7B;
+}
+
+
+/*Work Page*/
+.havoc-work-page .havoc-work-listing {
+  margin: 0;
+}
+.havoc-work-page .masonry-filters {
+  padding-left: 0;
+  padding-right: 0;
+}
+.havoc-work-listing {
+  margin: 0 -45px;
+}
+.masonry-filters {
+  display: block;
+  overflow: hidden;
+  padding: 0 45px 32px;
+  /*max-width: 920px;*/
+}
+.masonry-filters span {
+  display: block;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px;
+  display: none;
+}
+.masonry-filters ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.masonry-filters ul li {
+  display: inline-block;
+  padding: 0 14px 24px 0;
+}
+.masonry-filters ul li a {
+  display: block;
+  border: 1px solid #000000;
+  padding: 11px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.masonry-filters ul li a:hover {
+  background: #f67b08;
+  color: #000000;
+}
+.masonry-filters ul li a.active {
+  background: #f67b08;
+}
+.havoc-our-work .work-image {
+  overflow: hidden;
+}
+.havoc-our-work .work-image img {
+  width: 100%;
+  transition: transform .5s ease;
+}
+.havoc-our-work .work-image:hover img {
+  transform: scale(1.2);
+}
+.havoc-our-work .havoc-section-title h3 {
+  margin-top: 23px;
+}
+.havoc-our-work .havoc-section-title span {
+  letter-spacing: 3px;
+}
+.masonry-item {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 45px;
+  padding-left: 45px;
+  margin-bottom: 100px;
+}
+.owl-carousel .owl-prev, .owl-carousel .owl-next, .owl-carousel .owl-dot {
+  cursor: pointer;
+}
+.owl-carousel .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  content: "";
+  z-index: 1;
+}
+.owl-carousel button.owl-dot {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  background: #000000;
+  text-indent: -999px;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transition: all ease .3s;
+  -ms-transition: all ease .3s;
+  transition: all ease .3s;
+  border: none;
+}
+.owl-carousel button.owl-dot.active {
+  background : #f67b08;
+}
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  bottom: 0;
+  width: 76px;
+  height: 45px;
+  outline: none;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all ease .3s;
+  -ms-transition: all ease .3s;
+  transition: all ease .3s;
+  z-index: 1;
+  border: none;
+  text-indent: -99999px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  right: 76px;
+  background: url("../images/icons/white-left-arrow.svg") no-repeat 50% 50% #000000;
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background: url("../images/icons/black-left-arrow.svg") no-repeat 50% 50% #FFC85A;
+}
+.owl-carousel .owl-nav button.owl-next {
+  right: 0;
+  background: url("../images/icons/white-right-arrow.svg") no-repeat 50% 50% #000000;
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+  background: url("../images/icons/black-right-arrow.svg") no-repeat 50% 50% #FFC85A;
+}
+.owl-carousel .owl-nav button.owl-prev:before, .owl-carousel .owl-nav button.owl-next:before {
+  display: none;
+}
+.owl-drag .disabled {
+  display: none;
+}
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: unset;
+  -moz-user-select: unset;
+  -ms-user-select: unset;
+  user-select: unset;
+}
+.owl-carousel.banner .item .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Havoc About Us Css */
+.havoc-about-us {
+  padding: 150px 0;
+}
+.havoc-about-us p {
+  font-size: 22px;
+  letter-spacing: -0.2px;
+  line-height: 40px;
+  color: #000000;
+  padding: 50px 0 0;
+  margin: 0;
+}
+
+/* Havoc Beloved Clients Css */
+.havoc-beloved-clients {
+  padding: 0 0 120px;
+}
+.havoc-beloved-clients .havoc-section-title {
+  padding-bottom: 60px;
+}
+.havoc-beloved-clients .row {
+  margin: 0 -20px;
+}
+.havoc-beloved-clients [class*="col-"] {
+  padding: 0 20px 50px;
+}
+.havoc-beloved-clients a {
+  display: block;
+  clear: both;
+  padding: 50px;
+  text-align: center;
+  background: #F7F7F7;
+  width: 100%;
+  height: 242px;
+}
+.havoc-beloved-clients a:hover, .havoc-beloved-clients a:focus {
+  background: #f67b08;
+}
+.havoc-beloved-clients a img {
+  opacity: 0.4;
+}
+.havoc-beloved-clients a:hover img {
+  opacity: 1;
+}
+.havoc-table-wrap {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.havoc-align-wrap {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Havoc Contact Us Css */
+.havoc-contact-us {
+  padding: 150px 0;
+}
+.havoc-contact-us .masonry-filters {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+.havoc-contact-us .row {
+  margin: 0
+}
+.havoc-contact-us [class*="col-"]{
+  padding: 0;
+}
+.havoc-gray-box {
+  float: left;
+  width: 100%;
+  background: #f7f7f7;
+  padding: 56px 80px;
+}
+.map-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  }
+.havoc-gray-box .havoc-info-block:last-child {
+  border-bottom: none;
+}
+.havoc-contact-us .masonry-item, .team-block .masonry-item {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 0; 
+  padding-left: 0; 
+  margin-bottom: 0; 
+  width: 100%;
+}
+.havoc-info-block {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #000000;
+}
+.havoc-info-block label {
+  display: block;
+  clear: both;
+  font-size: 10px;
+  line-height: 17px;
+  color: #7b7b7b;
+}
+.havoc-info-block span, .havoc-info-block a {
+  font-size: 22px;
+  line-height: 40px;
+  color: #000000;
+}
+.map-canvas {
+  float: left;
+  width: 100%;
+  height: 550px;
+}
+.team-block {
+  padding: 150px 0;
+}
+.team-block .havoc-section-title {
+  padding: 0 0 60px;
+}
+.team-block .havoc-section-title h3 {
+  margin-bottom: 15px;
+}
+.team-block .havoc-section-title p {
+  font-size: 18px;
+  line-height: 33px;
+  color: #7b7b7b;
+}
+.team-block .masonry-filters {
+  max-width: 100%;
+  padding: 0 0 30px;
+}
+
+/* Havoc Events Listing */
+.havoc-events-listing {
+  background: none;
+  padding-bottom: 50px;
+}
+.havoc-events-listing .container {
+  max-width: 1170px;
+}
+.havoc-events-listing .havoc-section-title {
+  padding-bottom: 80px;
+}
+.havoc-events-listing .havoc-section-title h3 {
+  font-size: 43px;
+  line-height: 56px;
+  font-weight: 600;
+  color: #000000;
+}
+.havoc-events-listing .havoc-section-title h3:after {
+  display: none;
+}
+.havoc-events-listing .havoc-image-wrap {
+  display: table-cell;
+  height: 100%;
+  width: 50%;
+}
+.event-right {
+  display: table-cell;
+  overflow: hidden;
+  height: 100%;
+  vertical-align: top;
+  padding: 100px 50px;
+  background: #F7F7F7;
+}
+.havoc-events-listing .havoc-event-block {
+  display: table;
+  height: 100%;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 100px;
+}
+.havoc-events-listing .havoc-event-block h6 {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+.havoc-events-listing .event-right small {
+  display: block;
+  clear: both;
+  font-size: 20px;
+}
+.havoc-events-listing .event-right p img {
+  width: 22px;
+}
+.havoc-events-listing .event-arrow {
+  background: #000000;
+  width: 80px;
+  height: 40px;
+  padding: 15px;
+  top: auto;
+  bottom: 0;
+  right: 0;
+}
+.havoc-events-listing .event-right h6 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: -8px;
+}
+.havoc-events-listing .event-right .btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  font-size: 20px;
+  min-width: 195px;
+  padding: 7px 20px;
+}
+.havoc-events-listing .event-right .btn:hover, .havoc-events-listing .event-right .btn:focus {
+  background: #f67b08;
+  border-color: #f67b08;
+}
+.havoc-events-listing .event-right .btn.btn-small {
+  min-width: 76px;
+  line-height: inherit;
+}
+.havoc-events-listing .row {
+  display: block;
+}
+.havoc-event-details .havoc-section-title {
+  padding-bottom: 30px;
+}
+.havoc-event-details p {
+  font-size: 22px;
+  color: #000000;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+  padding-bottom: 40px;
+}
+.havoc-event-details h4 {
+  font-size: 35px;
+  color: #000000;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  padding-bottom: 48px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+.havoc-event-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+.havoc-event-details ul li {
+  font-size: 22px;
+  color: #000000;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 35px;
+}
+.havoc-event-details ul li:before {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #000000;
+  content: "";
+  border-radius: 100%;
+}
+.havoc-work-detail .havoc-section-title h3 {
+  margin-bottom: 12px;
+}
+.havoc-work-detail .havoc-section-title p {
+  font-size: 18px;
+  line-height: 33px;
+}
+.havoc-work-posted {
+  float: right;
+}
+.info-list {
+  display: block;
+  clear: both;
+  margin-bottom: 25px;
+}
+.havoc-work-posted span, .havoc-work-posted small {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.havoc-work-posted small {
+  margin-right: 0;
+  font-weight: 300;
+}
+.socials-link ul {
+  padding: 10px 0 0;
+  margin: 0;
+  list-style-type: none;
+}
+.socials-link ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.socials-link ul li a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #F7F7F7;
+  text-align: center;
+  padding: 3px;
+}
+.socials-link ul li a:hover {
+  background: #f67b08;
+}
+
+.havoc-work-detail .havoc-section-title:after {
+  position: absolute;
+  top: 0;
+  right: -80px;
+  z-index: 1;
+  width: 1px;
+  height: 100%;
+  background: #979797;
+  content: "";
+}
+.havoc-work-detail [class*="col-"] {
+  padding-bottom: 0;
+}
+.havoc-full-detail {
+  padding: 80px 0 50px;
+}
+.havoc-full-detail .work-image {
+  position: relative;
+}
+.havoc-full-detail .work-info p {
+  font-size: 18px;
+  line-height: 33px;
+  color: #7B7B7B;
+  padding-top: 8px;
+  max-width: 760px;
+}
+.havoc-work-detail .btn-wrap {
+  padding-top: 50px;
+}
+.havoc-work-detail .btn-wrap .btn {
+  margin: 0 20px;
+}
+.havoc-work-detail figure {
+  position: relative;
+  text-align: center;
+}
+.play-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url("../images/icons/play.svg") no-repeat 50% 50%;
+}
+.video-modal .modal-dialog {
+  max-width: 880px;
+}
+.video-modal iframe {
+  width: 100%;
+  height: 550px;
+}
+.video-modal .modal-content, .video-modal .modal-header {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.video-modal .close {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  z-index: 1;
+  opacity: 1;
+  color: #FFFFFF;
+}
+
+/* Crmny Back Top */
+.havoc-back-top {
+  position: fixed;
+  bottom: -50px;
+  right: 15px;
+  -webkit-transition: all ease .3s;
+  -ms-transition: all ease .3s;
+  transition: all ease .3s;
+  z-index: 2;
+}
+.havoc-back-top.active {
+  bottom: 15px;
+}
+.havoc-back-top a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 11px 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #FFFFFF;
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.havoc-back-top a:hover {
+  -webkit-box-shadow: 0 0 15px rgba(180, 210, 200, 0.4);
+  -ms-box-shadow: 0 0 15px rgba(180, 210, 200, 0.4);
+  box-shadow: 0 0 15px rgba(180, 210, 200, 0.4);
+}
+
+
+.wow {
+  visibility: hidden;
+}
+
+/*Havoc Preloader*/
+.havoc-preloader {
+  background-color: #f67b08;
+  display: table;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 11111;
+}
+.loader-wrap {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.loader {
+  display: inline-block;
+  vertical-align: middle;
+}
+.loader .ball-pulse-sync div {
+  background: #000000;
+}
+
+
+
+
+

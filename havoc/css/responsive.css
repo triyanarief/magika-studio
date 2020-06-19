@@ -1,0 +1,805 @@
+/*Havoc Responsive CSS*/
+
+@media screen and (max-width:1299px) {
+	.container {
+		padding: 0 50px;
+	}
+	header {
+		padding: 32px 0 32px 50px;
+	}
+	header .container {
+		padding: 0;
+	}
+  .menu-listing {
+  	width: 690px;
+  }
+  .havoc-banner-wrap h2 {
+  	font-size: 35px;
+  	line-height: 48px;
+  }
+  h1 {
+  	font-size: 80px;
+  	line-height: 90px;
+  }
+  .havoc-banner-wrap a {
+  	font-size: 33px;
+  }
+  .havoc-banner-wrap ul li {
+  	margin: 0 0 25px;
+  }
+  .havoc-our-work .work-info h4 {
+  	font-size: 22px;
+  }
+  .havoc-our-work .slider-caption .work-info h4 {
+  	font-size: 30px;
+  	line-height: 40px;
+  }
+  .havoc-growing-globe .havoc-section-title h3 {
+  	font-size: 80px;
+  	line-height: 90px;
+  }
+  .havoc-counter-wrap h5 {
+  	font-size: 120px;
+  	line-height: 140px;
+  }
+  .havoc-events-listing .havoc-event-block h6 {
+  	font-size: 24px;
+  	line-height: 36px;
+  }
+  .event-right {
+  	padding: 50px;
+  }
+  .map-image img {
+  	height: 538px;
+  	object-fit: cover;
+  }
+  .havoc-beloved-clients a {
+  	padding: 20px;
+  	height: 200px;
+  }
+}
+
+@media screen and (max-width:991px) {
+	.havoc-banner-wrap h2 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	h1 {
+		font-size: 58px;
+		line-height: 66px;
+	}
+	.havoc-banner-wrap .caption {
+		padding-left: 30px;
+	}
+	.havoc-banner-wrap a {
+		font-size: 24px;
+	}
+	.email-us img {
+		width: 30px;
+	}
+	.havoc-banner-wrap ul li {
+		margin: 0 0 15px;
+	}
+	.havoc-banner-wrap ul {
+		padding-left: 40px;
+	}
+	.havoc-banner-wrap {
+		padding: 60px 0 120px;
+	}
+	.havoc-our-work {
+		padding: 100px 0;
+	}
+	.havoc-section-title h3 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	br {
+		display: none;
+	}
+	.havoc-our-work .slider-caption .work-info h4 {
+		font-size: 24px;
+	}
+	.havoc-our-work .work-info h4 {
+		line-height: 30px;
+	}
+	.havoc-growing-globe {
+		padding: 50px 0 0;
+	}
+	.havoc-growing-globe .havoc-section-title h3 {
+		font-size: 50px;
+		line-height: 60px;
+		padding-left: 30px;
+	}
+	.havoc-growing-globe .havoc-section-title h3:after {
+		top: 35px;
+		width: 60px;
+	}
+	.havoc-counter-wrap h5 {
+		font-size: 90px;
+		line-height: 100px;
+	}
+	.havoc-latest-news {
+		padding: 50px 0 50px 35px;
+	}
+	.havoc-our-team {
+		padding: 100px 0;
+	}
+	.havoc-upcoming-events {
+		padding: 100px 0;
+	}
+	.havoc-get-touch, footer {
+		padding: 100px 0;
+	}
+	.havoc-get-touch [class*="col-"]:last-child {
+		padding-left: 15px;
+		padding-top: 50px;
+	}
+	.havoc-upcoming-events .havoc-section-title h3, .havoc-get-touch .havoc-section-title h3 {
+		font-size: 58px;
+		line-height: 70px;
+	}
+	.havoc-gray-box {
+		padding: 36px 40px;
+	}
+	.havoc-events-listing .havoc-image-wrap img {
+		width: 100%;
+	}
+	.havoc-events-listing .havoc-image-wrap, .event-right {
+		display: block;
+		width: 100%;
+	}
+	.havoc-events-listing .havoc-event-block {
+		display: block;
+	}
+	.havoc-events-listing .havoc-section-title h3 {
+		font-size: 43px;
+	}
+	.havoc-work-detail .havoc-section-title:after {
+		display: none;
+	}
+	.havoc-work-posted {
+		float: left;
+	}
+	.play-icon {
+		background-size: 100px auto;
+	}
+	.video-modal .close {
+		top: -40px;
+		right: 10px;
+	}
+	.menu-listing .socials-link, .bottom-links {
+		position: static;
+		margin-top: 40px;
+		float: right;
+		width: 100%;
+		text-align: right;
+	}
+	.menu-listing {
+		height: auto;
+	}
+}
+@media  (max-device-width: 800px) and (orientation: landscape) {
+	.menu-listing {
+		height: 105vh;
+	}
+}
+
+
+@media screen and (max-width:767px) {
+	.container {
+		padding: 0 30px;
+	}
+
+	.masonry-item {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	header .container {
+		padding: 0;
+	}
+	.havoc-banner-wrap {
+		padding-bottom: 0;
+	}
+	.havoc-banner-wrap [class*="col-"] {
+		border-left: none;
+	}
+	.havoc-banner-wrap ul {
+		display: none;
+	}
+	h1 {
+		font-size: 70px;
+		line-height: 76px;
+	}
+	.havoc-banner-wrap .caption {
+		padding-left: 0;
+	}
+	.havoc-section-title h3 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.havoc-our-work {
+		padding: 80px 0;
+	}
+	.havoc-section-title span:after, .havoc-growing-globe .havoc-section-title h3:after, .havoc-upcoming-events .havoc-section-title h3:after {
+		width: 60px;
+	}
+	.havoc-section-title span {
+		padding-left: 75px;
+	}
+	.havoc-our-work [class*="col-"] {
+		padding-bottom: 50px;
+	}
+	.owl-nav, .havoc-growing-globe .havoc-section-title h3:after {
+		display: none;
+	}
+	.havoc-our-work .work-small-thumb [class*="col-"] {
+		padding: 0 0 50px;
+	}
+	.btn {
+		min-width: 130px;
+		padding: 6px 10px;
+		font-size: 24px;
+	}
+	.havoc-growing-globe .havoc-section-title h3 {
+		font-size: 38px;
+		line-height: 50px;
+		padding-left: 0;
+	}
+	.havoc-counter-wrap [class*="col-"] {
+		float: left;
+		width: 33.333%;
+	}
+	.havoc-our-team [class*="col-"] {
+		float: left;
+		width: 50%;
+		padding: 0 15px 30px;
+	}
+	.havoc-counter-wrap h5 {
+		font-size: 54px;
+    line-height: 50px;
+	}
+	.havoc-counter-wrap span {
+		font-size: 16px;
+	}
+	.havoc-latest-news {
+		padding-left: 0;
+	}
+	.havoc-latest-news {
+		font-size: 15px;
+	}
+	.havoc-latest-news span {
+		margin-right: 10px;
+	}
+	.havoc-growing-globe {
+		background-size: contain;
+		background-position: 50% 50%;
+	}
+	.link-underline {
+		font-size: 18px;
+	}
+	.havoc-our-team .havoc-section-title {
+		padding-bottom: 25px;
+	}
+	.havoc-our-team .row {
+		margin: 0 -15px;
+	}
+	.havoc-our-team h6 {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.havoc-our-team .team-mate span {
+		font-size: 12px;
+	}
+	.havoc-our-team .btn {
+		min-width: 130px;
+	}
+	.havoc-upcoming-events, .havoc-get-touch, footer {
+		padding: 50px 0;
+	}
+	.havoc-upcoming-events .havoc-section-title h3, .havoc-get-touch .havoc-section-title h3 {
+		font-size: 48px;
+		line-height: 60px;
+	}
+	.havoc-event-block h6 {
+		max-width: 275px;
+		font-size: 25px;
+		line-height: 33px;
+	}
+	.havoc-event-block .event-arrow {
+		top: 70px;
+		right: 20px;
+	}
+	.havoc-event-block:hover .event-arrow {  
+		right: 0;
+	}
+	.havoc-event-block p {
+		font-size: 18px;
+	}
+	.havoc-event-block {
+		padding: 0 0 20px;
+		margin-bottom: 30px;
+	}
+	.havoc-get-touch .havoc-section-title span {
+		padding-left: 85px;
+	}
+	.havoc-get-touch .btn {
+		padding: 7px;
+	}
+	.havoc-copyright {
+		padding: 50px 0 0;
+	}
+	.havoc-back-top a {
+		width: 40px;
+		height: 40px;
+		padding: 6px 13px;
+	}
+	.havoc-back-top .container {
+		padding: 0;
+	}
+	footer h6 {
+		border-bottom: 1px solid #ffffff;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+		cursor: pointer;
+		position: relative;		
+	}
+	footer h6:before {
+		position: absolute;
+		top: 13px;
+		right: 8px;
+		width: 12px;
+		height: 2px;
+		z-index: 1;
+		background: #ffffff;
+		content: "";
+		transform: rotate(40deg);
+		transition: all ease .2s;
+	}
+	footer h6:after {
+		position: absolute;
+		top: 13px;
+		right: 0;
+		width: 12px;
+		height: 2px;
+		z-index: 1;
+		background: #ffffff;
+		content: "";
+		transform: rotate(-45deg);
+		transition: all ease .2s;
+	}
+	footer ul {
+		display: none;
+		margin-bottom: 25px;
+	}
+	footer ul li a {
+		color: #ffffff;
+	}
+	footer p {
+		padding-bottom: 30px;
+	}
+	footer .block-menu h6:before {
+		transform: rotate(133deg);
+		right: 8px;
+	}
+	footer .block-menu h6:after {
+		transform: rotate(-130deg);
+	}
+	nav, .menu-listing {
+		width: 100%;
+	}
+	.menu-listing {
+		padding: 70px 30px;
+		right: 0;
+		overflow: auto;
+	}
+	.menu-listing ul.navbar-nav li {
+		padding: 0 0 10px;
+		margin: 0 0 25px;
+	}
+	.menu-listing ul.navbar-nav li:before {
+		top: 100%;
+		width: 100%;
+	}
+	.menu-listing ul.navbar-nav li a {
+		font-size: 24px;
+		line-height: 26px;
+	}
+	
+.bottom-links {
+	margin-top: 50px;
+	width: 100%;
+	text-align: right;
+}
+
+/* About Us Page Css */
+.havoc-about-us {
+	padding: 70px 0 0;
+}
+.havoc-about-us p {
+	font-size: 19px;
+	line-height: 36px;
+	padding: 30px 0 0;
+}
+.havoc-beloved-clients .havoc-section-title {
+	padding-top: 70px;
+}
+.havoc-beloved-clients [class*="col-"] {
+	float: left;
+	width: 50%;
+	}
+	.havoc-beloved-clients a {
+		height: 150px;
+	}
+	.havoc-beloved-clients [class*="col-"] {
+		padding: 0 10px 20px;
+	}
+	.havoc-beloved-clients {
+		padding-bottom: 70px;
+	}
+
+	/* Contact Us Page Css */
+	.havoc-contact-us {
+		padding: 70px 0;
+	}
+	.map-image img {
+		height: 350px;
+	}
+	.havoc-gray-box {
+		padding: 25px 30px;
+	}
+
+	/* Events List Page Css */
+	.havoc-events-listing .havoc-event-block {
+		margin-bottom: 70px;
+	}
+
+	.havoc-full-detail {
+		padding: 0;
+	}
+	.video-modal iframe {
+		height: 65vh;
+	}
+	.havoc-work-detail .btn-wrap {
+		padding-top: 20px;
+	}
+	.havoc-work-detail {
+		padding: 70px 0 30px;
+	}
+	.havoc-work-detail .havoc-section-title {
+		padding-bottom: 0;
+		margin-bottom: -40px;
+	}
+	.havoc-work-detail .havoc-section-title p {
+		display: none;
+	}
+	.havoc-work-detail .havoc-work-posted {
+		width: 100%;
+	}
+	.havoc-work-detail .socials-link {
+		padding-bottom: 40px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #979797;
+	}
+	.havoc-our-work .masonry-item {
+		-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+	}
+	.masonry-filters span {
+		display: block;
+		position: relative;
+		margin-bottom: 12px;
+	}
+	.masonry-filters span:before {
+		position: absolute;
+		top: 15px;
+		right: 8px;
+		width: 12px;
+		height: 2px;
+		z-index: 1;
+		background: #000000;
+		content: "";
+		transform: rotate(40deg);
+	}
+	.masonry-filters span:after {
+		position: absolute;
+		top: 15px;
+		right: 0;
+		width: 12px;
+		height: 2px;
+		z-index: 1;
+		background: #000000;
+		content: "";
+		transform: rotate(-45deg);
+	}
+	.masonry-filters ul {
+		display: none;
+	}
+	.masonry-filters ul li {
+		display: block;
+		clear: both;
+		padding: 0 0 10px;
+	}
+	.masonry-filters ul li a {
+		border: none;
+		padding: 5px;
+		font-size: 16px;
+	}
+	.masonry-filters ul.display {
+		display: block;
+	}
+	.mate-info a {
+		margin: 10px 3px;
+	}
+	.navbar-toggler {
+		width: 40px;
+		height: 44px;
+		background-size: 18px auto;
+		top: -46px;
+	}
+	header {
+		padding: 20px 0;
+	}
+	header .logo {
+		margin-left: 30px;
+	}
+	/*.masonry-filters {
+		padding-right: 0;
+	}*/
+	.havoc-work-detail .btn-wrap .btn {
+		margin: 0 10px;
+	}
+
+	.menu-listing::-webkit-scrollbar {
+    width: 12px;
+    background: none;
+}
+
+.menu-listing::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background: none;
+}
+
+.menu-listing::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: none;
+}
+.work-small-thumb {
+	margin: 0;
+}
+}
+
+@media screen and (max-width:399px) {
+	.havoc-upcoming-events [class*="col-"] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.havoc-event-block h6 {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.havoc-event-block h6 {
+		max-width: 245px;
+	}
+	.havoc-event-block .event-arrow {
+		top: 60px;
+	}
+	.havoc-event-block h6 {
+		padding: 22px 0 0;
+	}
+	h1 {
+		font-size: 50px;
+    line-height: 50px;
+	}
+	.havoc-banner-wrap h2 {
+		font-weight: 400;
+		padding-bottom: 0;
+		line-height: 31px;
+	}
+	.havoc-banner-wrap a {
+		font-size: 20px;
+	}
+	.email-us {
+		padding: 0;
+	}
+	.havoc-upcoming-events .havoc-section-title h3 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.havoc-events-listing .havoc-section-title {
+		padding-bottom: 50px;
+	}
+	.event-right {
+		padding: 30px;
+	}
+	.havoc-events-listing .event-right .btn {
+		float: right;
+		position: static;
+		min-width: 150px;
+		padding: 5px 20px;
+		margin: 20px -30px -30px 0;
+	}
+	.havoc-event-details p, .havoc-event-details ul li, .havoc-full-detail .work-info p {
+		font-size: 18px;
+	}
+	.havoc-event-details h4 {
+		font-size: 30px;
+	}
+	.play-icon {
+		background-size: 50px auto;
+	}
+	.havoc-work-detail .btn-wrap .btn {
+		min-width: 130px;
+		margin: 0 6px;
+		font-size: 20px;
+	}
+	.masonry-filters span {
+		font-size: 14px;
+	}
+	.havoc-our-work .havoc-section-title span {
+		letter-spacing: 0.3px;
+		font-size: 12px;
+	}
+	.havoc-section-title span {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.havoc-section-title span:after, .havoc-growing-globe .havoc-section-title h3:after, .havoc-upcoming-events .havoc-section-title h3:after {
+		top: 9px;
+	}
+	.btn {
+		font-size: 20px;
+	}
+	.havoc-upcoming-events .havoc-section-title h3, .havoc-get-touch .havoc-section-title h3 {
+		font-size: 35px;
+    line-height: 38px;
+	}
+	.havoc-section-title br {
+		display: block;
+	}
+	.havoc-get-touch .havoc-section-title span {
+		padding-left: 70px;
+	}
+	.havoc-get-touch p, p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.form-control {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.havoc-get-touch [class*="col-"]:last-child {
+		padding-top: 10px;
+	}
+	.havoc-section-title h3 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.havoc-our-work .work-info .work-category span, .havoc-counter-wrap span, .havoc-latest-news span, .havoc-latest-news, .link-underline, .havoc-event-block span, .havoc-event-block p, .havoc-copyright, .bottom-links a {
+		font-size: 12px;
+	}
+	.havoc-our-work .slider-caption .work-info h4 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.havoc-growing-globe .havoc-section-title h3 {
+		font-size: 35px;
+		line-height: 38px;
+	}
+	.havoc-growing-globe .havoc-section-title h3 br, .havoc-our-team .havoc-section-title h3 br, .havoc-contact-us .havoc-section-title br, .havoc-our-work .havoc-section-title br {
+		display: none;
+	}
+	.havoc-counter-wrap h5 {
+		font-size: 42px;
+	}
+	.havoc-latest-news {
+		padding: 30px 0 30 30px;
+	}
+	.havoc-our-team h6 {
+		font-size: 14px;
+		line-height: 12px;
+	}
+	.havoc-our-team .team-mate span {
+		font-size: 10px;
+	}
+	.havoc-event-block span {
+		padding: 2px 10px;
+	}
+	footer p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.socials-link ul li a, .mate-info a {
+		width: 24px;
+		height: 24px;
+		padding: 0;
+	}
+	.menu-listing {
+		padding-top: 110px;
+		height: 90vh;
+	}
+	.bottom-links {
+		margin-top: 30px;
+	}
+	.havoc-about-us p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.team-block .havoc-section-title p {
+		display: none;
+	}
+	.havoc-our-work .work-small-thumb .work-info {
+		padding: 10px 0 0;
+	}
+	.havoc-our-work .masonry-item {
+		margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width:349px) {
+	h1 {
+		font-size: 55px;
+		line-height: 65px;
+	}
+	.havoc-section-title {
+		padding: 0 0 30px;
+	}
+	.havoc-section-title span {
+		padding-left: 45px;
+	}
+	.havoc-section-title span:after, .havoc-growing-globe .havoc-section-title h3:after, .havoc-upcoming-events .havoc-section-title h3:after {
+		width: 35px;
+	}
+	.havoc-our-work .slider-caption .work-info h4 {
+		line-height: 36px;
+	}
+	.havoc-our-work [class*="col-"] {
+		padding-bottom: 20px;
+	}
+	.mate-info a {
+		margin: 5px 1px;
+		width: 22px;
+    height: 22px;
+	}
+	.havoc-event-block h6 {
+		max-width: 215px;
+	}
+	.havoc-get-touch .havoc-section-title span {
+		padding-left: 50px;
+	}
+	.havoc-get-touch [class*="col-"]:last-child {
+		padding-top: 20px;
+	}
+	.bottom-links a {
+		margin-left: 10px;
+	}
+	.menu-listing ul.navbar-nav li a {
+    padding-bottom: 5px;
+	}
+	.havoc-event-details h4 {
+		font-size: 26px;
+	}
+	.havoc-event-details ul li:before {
+		top: 5px;
+	}
+	.havoc-our-work .work-info {
+		padding: 0;
+	}
+	.havoc-work-detail .btn-wrap {
+		padding-top: 0;
+	}
+	.havoc-work-detail .btn-wrap .btn {
+		min-width: 100px;
+	}	
+	.havoc-banner-wrap {
+		padding: 20px 0 80px;
+	}
+	.havoc-work-detail .havoc-section-title {
+		margin-bottom: 0;
+	}
+}
